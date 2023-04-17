@@ -1,12 +1,9 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" />
-  {{ $t /* $t(key: "hello"): void */ }}
+  <div>
+    <img alt="Vue logo" src="./assets/logo.png" />
+    <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" />
+  </div>
 </template>
-
-<script lang="ts" setup>
-// import HelloWorld from './components/HelloWorld.vue'
-</script>
 
 <style>
 #app {
@@ -18,14 +15,3 @@
   margin-top: 60px;
 }
 </style>
-
-<i18n lang="json">
-{
-  "en": {
-    "hello": "hello world!"
-  },
-  "ja": {
-    "hello": "こんにちは、世界！"
-  }
-}
-</i18n>
